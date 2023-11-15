@@ -26,5 +26,8 @@ Set-Alias -Name vim -Value nvim
 Set-Alias -Name psconf -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\psconf.ps1
 Set-Alias -Name :q -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\exit.ps1
 Set-Alias -Name gtpsconf -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\goto_conf.ps1
+Set-Alias -Name which -Value Get-Command
+Set-Alias -Name wmconf -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\wmconf.ps1
+Set-Alias -Name gtdevdir -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\gtdevdir.ps1
 ################################
 
