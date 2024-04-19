@@ -9,8 +9,9 @@ oh-my-posh init pwsh --config 'C:\Users\91724\AppData\Local\Programs\oh-my-posh\
 # for `choco` will not function.
 # See https://ch0.co/tab-completion for details.
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
-if (Test-Path($ChocolateyProfile)) {
-  Import-Module "$ChocolateyProfile"
+if (Test-Path($ChocolateyProfile))
+{
+	Import-Module "$ChocolateyProfile"
 }
 
 ## Custom env variables ##############
@@ -29,5 +30,9 @@ Set-Alias -Name gtpsconf -Value C:\Users\91724\Documents\PowerShell\conf_script_
 Set-Alias -Name which -Value Get-Command
 Set-Alias -Name wmconf -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\wmconf.ps1
 Set-Alias -Name gtdevdir -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\gtdevdir.ps1
+Set-Alias -Name cdBillMaker -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\cdBillMaker.ps1
+Set-Alias -Name wintermconf -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\wintermconf.ps1
 ################################
 
+## Greeting Message #####################################################################################################################################################
+#########################################################################################################################################################################
