@@ -1,5 +1,5 @@
 ########### Firs initialize OH MY POSH #####
-oh-my-posh init pwsh --config 'C:\Users\91724\AppData\Local\Programs\oh-my-posh\themes\customApe.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'C:\Users\91724\AppData\Local\Programs\oh-my-posh\themes\catppuccin_frappe.omp.json' | Invoke-Expression
 ############################################
 
 
@@ -24,15 +24,17 @@ Set-Location "$HOME"
 
 ## aliases #####################
 Set-Alias -Name vim -Value nvim
-Set-Alias -Name psconf -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\psconf.ps1
-Set-Alias -Name :q -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\exit.ps1
-Set-Alias -Name gtpsconf -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\goto_conf.ps1
+Set-Alias -Name psconf -Value D:\Documents\PowerShell\conf_script_ps\psconf.ps1
+Set-Alias -Name :q -Value D:\Documents\PowerShell\conf_script_ps\exit.ps1
+Set-Alias -Name gtpsconf -Value D:\Documents\PowerShell\conf_script_ps\goto_conf.ps1
 Set-Alias -Name which -Value Get-Command
-Set-Alias -Name wmconf -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\wmconf.ps1
-Set-Alias -Name gtdevdir -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\gtdevdir.ps1
-Set-Alias -Name cdBillMaker -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\cdBillMaker.ps1
-Set-Alias -Name wintermconf -Value C:\Users\91724\Documents\PowerShell\conf_script_ps\wintermconf.ps1
+Set-Alias -Name wintermconf -Value D:\Documents\PowerShell\conf_script_ps\wintermconf.ps1
 ################################
+
+## Zoxide Invocation ###############################################
+Invoke-Expression (& { (zoxide init powershell | Out-String) })
+###################################################################
 
 ## Greeting Message #####################################################################################################################################################
 #########################################################################################################################################################################
+
