@@ -1,5 +1,5 @@
 ########### Firs initialize OH MY POSH #####
-oh-my-posh init pwsh --config 'C:\Users\91724\AppData\Local\Programs\oh-my-posh\themes\catppuccin_frappe.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'C:\Users\91724\AppData\Local\Programs\oh-my-posh\themes\customApe.omp.json' | Invoke-Expression
 ############################################
 
 
