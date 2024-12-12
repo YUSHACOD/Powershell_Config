@@ -27,6 +27,7 @@ Set-Alias -Name vim -Value nvim
 Set-Alias -Name psconf -Value D:\Documents\PowerShell\conf_script_ps\psconf.ps1
 Set-Alias -Name :q -Value D:\Documents\PowerShell\conf_script_ps\exit.ps1
 Set-Alias -Name gtpsconf -Value D:\Documents\PowerShell\conf_script_ps\goto_conf.ps1
+Set-Alias -Name github_pull -Value D:\Documents\PowerShell\conf_script_ps\github_pull.ps1
 Set-Alias -Name which -Value Get-Command
 Set-Alias -Name wintermconf -Value D:\Documents\PowerShell\conf_script_ps\wintermconf.ps1
 ################################
