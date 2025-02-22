@@ -22,6 +22,11 @@ $env:XDG_CONFIG_HOME = "$HOME\.config"
 Set-Location "$HOME"
 ######################
 
+
+## Zoxide Invocation ###############################################
+Invoke-Expression (& { (zoxide init powershell | Out-String) })
+###################################################################
+
 ## aliases #####################
 Set-Alias -Name vim -Value nvim
 Set-Alias -Name psconf -Value D:\Documents\PowerShell\conf_script_ps\psconf.ps1
@@ -30,12 +35,9 @@ Set-Alias -Name gtpsconf -Value D:\Documents\PowerShell\conf_script_ps\goto_conf
 Set-Alias -Name github_pull -Value D:\Documents\PowerShell\conf_script_ps\github_pull.ps1
 Set-Alias -Name which -Value Get-Command
 Set-Alias -Name wintermconf -Value D:\Documents\PowerShell\conf_script_ps\wintermconf.ps1
-################################
-
-## Zoxide Invocation ###############################################
-Invoke-Expression (& { (zoxide init powershell | Out-String) })
-###################################################################
-
-## Greeting Message #####################################################################################################################################################
-#########################################################################################################################################################################
-
+Set-Alias -Name alias_save -Value D:\Documents\PowerShell\conf_script_ps\alias_save.ps1
+Set-Alias -Name zbr -Value D:\Documents\PowerShell\conf_script_ps\zbr.ps1
+Set-Alias -Name gs -Value D:\Documents\PowerShell\conf_script_ps\gs.ps1
+Set-Alias -Name tasks -Value D:\Documents\PowerShell\conf_script_ps\tasks.ps1
+Set-Alias -Name lg -Value D:\Documents\PowerShell\conf_script_ps\lg.ps1
+Set-Alias -Name winget_upgrade -Value D:\Documents\PowerShell\conf_script_ps\winget_upgrade.ps1
