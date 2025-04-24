@@ -16,6 +16,7 @@ if (Test-Path($ChocolateyProfile))
 
 ## Custom env variables ##############
 $env:XDG_CONFIG_HOME = "$HOME\.config"
+$env:ANDROID_HOME = "C:\android_sdk"
 ######################################
 
 #### at startup ######
@@ -41,3 +42,5 @@ Set-Alias -Name gs -Value D:\Documents\PowerShell\conf_script_ps\gs.ps1
 Set-Alias -Name tasks -Value D:\Documents\PowerShell\conf_script_ps\tasks.ps1
 Set-Alias -Name lg -Value D:\Documents\PowerShell\conf_script_ps\lg.ps1
 Set-Alias -Name winget_upgrade -Value D:\Documents\PowerShell\conf_script_ps\winget_upgrade.ps1
+Set-Alias -Name ev -Value ebook-viewer
+Set-Alias -Name vault -Value D:\Documents\PowerShell\conf_script_ps\vault.ps1
