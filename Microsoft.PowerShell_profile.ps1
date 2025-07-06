@@ -44,3 +44,10 @@ Set-Alias -Name lg -Value D:\Documents\PowerShell\conf_script_ps\lg.ps1
 Set-Alias -Name winget_upgrade -Value D:\Documents\PowerShell\conf_script_ps\winget_upgrade.ps1
 Set-Alias -Name ev -Value ebook-viewer
 Set-Alias -Name vault -Value D:\Documents\PowerShell\conf_script_ps\vault.ps1
+Set-Alias -Name arch -Value D:\Documents\PowerShell\conf_script_ps\arch.ps1
+Set-Alias -Name nc -Value D:\Documents\PowerShell\conf_script_ps\nc.ps1
+Set-Alias -Name notes -Value D:\Documents\PowerShell\conf_script_ps\notes.ps1
+Set-Alias -Name npull -Value D:\Documents\PowerShell\conf_script_ps\npull.ps1
+Set-Alias -Name npush -Value D:\Documents\PowerShell\conf_script_ps\npush.ps1
+Set-Alias -Name condroid -Value D:\Documents\PowerShell\conf_script_ps\condroid.ps1
+Set-Alias -Name love -Value D:\Documents\PowerShell\conf_script_ps\love.ps1
